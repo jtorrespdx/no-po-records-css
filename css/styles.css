@@ -1,0 +1,79 @@
+@font-face{
+  font-family: "andada";
+
+  src: url('fonts/andada/Andada-Regular.otf');
+  src: url('fonts/andada/Andada-Regular.otf') format('truetype');
+}
+
+@font-face{
+  font-family: "Andada-BoldItalic";
+  src: url('fonts/andada/Andada-BoldItalic.otf');
+  src: url('fonts/andada/Andada-BoldItalic.otf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20 px;
+}
+
+body  {
+  background-color: rgba(252,252,252);
+  color: color: rgba(72,72,72, 1);
+}
+
+.top-left {
+  float: left;
+  width: 50%;
+}
+
+h1 {
+  font: 6em "Andada-BoldItalic";
+  color: rgba(72,72,72, 1);
+  text-align: center;
+}
+
+ span.chevron {
+  color: rgba(255,153,0, 1);
+}
+
+h1#bottom-logo {
+  padding-left: 25%;
+}
+
+#logo-img img {
+  width: 53%;
+}
+
+#logo-img {
+  padding-left: 33%;
+}
+
+.slogan {
+  font: 1em "andada";
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(211,211,211,1);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top: double;
+  border-bottom: double;
+}
+
+.top-right {
+  float: right;
+  width: 50%;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links ul {
+  text-align: center;
+  float: left;
+
+
+}
